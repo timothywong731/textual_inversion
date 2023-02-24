@@ -6,7 +6,9 @@ Published: 24 Feburary 2023
 
 # Training Textual Embedding
 
-There is a very good guide on [Textual Inversion written by Benny Cheung](https://bennycheung.github.io/stable-diffusion-training-for-embeddings), please read this first. I followed the steps there and created my own embeddings. 
+There is a very good guide on [Textual Inversion written by Benny Cheung](https://bennycheung.github.io/stable-diffusion-training-for-embeddings), please read this first. I followed the steps there and created my own embeddings. Textual embedding is primarily used to teach the Stable Diffusion model your own concept, e.g. a particular face, a specific object, a drawing style... etc. 
+
+![Input images](img/examples.png "Examples images")
 
 This note is to provide supplementary information after my own learning.
 
