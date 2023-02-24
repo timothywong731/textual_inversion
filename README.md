@@ -1,11 +1,14 @@
+# Learning Notes on Textual Inversion for Stable Diffusion
 
-# Learning Notes for Textual Inversion
+Author: ***Timothy Wong***
+
+Published: 24 Feburary 2023
+
+# Training Textual Embedding
 
 There is a very good guide on [Textual Inversion written by Benny Cheung](https://bennycheung.github.io/stable-diffusion-training-for-embeddings), please read this first. I followed the steps there and created my own embeddings. 
 
 This note is to provide supplementary information after my own learning.
-
-# Embedding Training
 
 ## Data Preparation
 
@@ -31,7 +34,7 @@ Here are some of the photos selected from the training set. They have a variety 
 
 The first step is to create an embedding, you need to navigate to `Train > Create Embedding`. There are several arguments required at this step:
 
-- **Name** a unique word for the concept which you are training, e.g. `realcz-v3`. This term should not be used for anything else. 
+- **Name** a unique word for the concept which you are training, e.g. `realperson_v3`. This term should not be used for anything else. 
 - **Initilization Text** To leave empty to start with empty vector. 
 - **Number of vectors per token** determines how much information the embedding may store, since I am training a particular face, I choose to use `30` vectors per token.
 
